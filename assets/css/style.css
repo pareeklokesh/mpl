@@ -228,3 +228,16 @@ margin-top: 40px;
   border: 1px solid #190A28;
   opacity: 0.1;
 }
+.social-link li a img {
+  width: 20px;
+height: 20px;
+margin-right: 16px;
+}
+.social-link {
+  margin-top: 40px;
+  padding: 0;
+}
+.social-link li {
+  list-style: none;
+  display: inline-block;
+}
