@@ -383,5 +383,9 @@ font-weight: 600;
 .navbar-mobile h2.fantasygame7 .plush {
   display: none;
 }
+.navbar-mobile h2 .mains {
+  font-size: 40px;
+  top: -1px;
+}
 
 }
