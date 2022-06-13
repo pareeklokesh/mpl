@@ -314,6 +314,13 @@ z-index: 999;
 .navbar-mobile h2 {
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
+  font-family: 'Trim-Bold';
+font-size: 20px;
+line-height: 24px;
+color: #230046 !important;
+font-weight: 600;
+position: relative;
 }
 .navbar-mobile h2 img {
   width: 30px;
@@ -340,8 +347,41 @@ font-weight: 600;
 .navbar-mobile ul {
   display: none;
 }
-.navbar-mobile h2.fantasygame ~ ul {
+.navbar-mobile h2.fantasygame1 + ul, .navbar-mobile h2.fantasygame2 + ul, .navbar-mobile h2.fantasygame3 + ul, .navbar-mobile h2.fantasygame4 + ul, .navbar-mobile h2.fantasygame5 + ul, .navbar-mobile h2.fantasygame6 + ul, .navbar-mobile h2.fantasygame7 + ul {
   display: block;
+}
+.header .navbar-toggler.collapsed {
+  color: #ff1e46 !important;
+  border: 0;
+}
+.header .navbar-nav li.help-nav a {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.fantasy1 {
+  position: relative;
+}
+.navbar-mobile h2 span {
+  float: right;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+}
+.mains {
+  display: none;
+}
+.navbar-mobile h2.fantasygame1 .mains, .navbar-mobile h2.fantasygame2 .mains, 
+.navbar-mobile h2.fantasygame3 .mains, .navbar-mobile h2.fantasygame4 .mains, 
+.navbar-mobile h2.fantasygame5 ul, .navbar-mobile h2.fantasygame6 .mains, 
+.navbar-mobile h2.fantasygame7 .mains {
+  display: block;
+}
+.navbar-mobile h2.fantasygame1 .plush, .navbar-mobile h2.fantasygame2 .plush, 
+.navbar-mobile h2.fantasygame3 .plush, .navbar-mobile h2.fantasygame4 .plush, 
+.navbar-mobile h2.fantasygame5 ul, .navbar-mobile h2.fantasygame6 .plush, 
+.navbar-mobile h2.fantasygame7 .plush {
+  display: none;
 }
 
 }
