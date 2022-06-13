@@ -38,14 +38,57 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
+        <li class="navbar-mobile">
+          <h2><img src="assets/img/fantasy_cricket.png" />Fantasy game</h2>
+          <ul>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Fantasy cricket</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Fantasy football</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Fantasy basketball</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Fantasy baseball</a></li>
+          </ul>
+          <h2><img src="assets/img/fantasy_cricket.png" />Card Skill</h2>
+          <ul>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Rummy</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Archery</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Baseball Star Game</a></li>
+          </ul>
+          <h2><img src="assets/img/fantasy_cricket.png" />Sports Games</h2>
+          <ul>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Wcc2</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Card Game-IPF</a></li>
+          </ul>
+          <h2><img src="assets/img/fantasy_cricket.png" />Arcade Games</h2>
+          <ul>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Fruit Dart</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Fruit Chop</a></li>
+          </ul>
+          <h2><img src="assets/img/fantasy_cricket.png" />Casual Games</h2>
+          <ul>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Carrom</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Pool</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Runner No.1</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Monster Truck</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Bike Racing Game</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Ludo</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Ludo Win</a></li>
+          </ul>
+          <h2><img src="assets/img/fantasy_cricket.png" />Brain Games</h2>
+          <ul>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Sudoku</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Speed Chess</a></li>
+          </ul>
+          <h2><img src="assets/img/fantasy_cricket.png" />Puzzle Games</h2>
+          <ul>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Bubble Shooter</a></li>
+            <li><a href="#"><img src="assets/img/fantasy_cricket.png" />Build Up</a></li>
+          </ul>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             MPL Games
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Fantasy game</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -60,8 +103,8 @@
         <li class="nav-item">
           <a class="nav-link" href="#">FAQs</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Help</a>
+        <li class="nav-item help-nav">
+          <a class="nav-link" href="#"><img src="assets/img/help_icon.png" />Help</a>
         </li> 
       </ul>
     </div>
@@ -559,6 +602,30 @@
           </ul>
         </div>
         <div class="w-100 footerborder" style="margin-top: 40px;"></div>
+
+      </div>
+      <div class="row justify-content-between" style="margin-top: 20px;">
+        <div class="w-auto">
+          <p class="copyright">Copyright © - Galactus Funware Technology Private Limited | All rights reserved</p>
+        </div>
+        <div class="w-auto">
+          <ul class="footer-link link-copyright">
+            <li><a href="#">Privacy Policy&nbsp;&nbsp;|&nbsp;&nbsp;</a></li>
+            <li><a href="#">MPL Fairplay&nbsp;&nbsp;|&nbsp;&nbsp;</a></li>
+            <li><a href="#">Terms & Condition</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid disclaimer">
+    <div class="container">
+      <div class="col-md-12">
+        <h3>Disclaimer </h3>
+        <p>Galactus Funware is the owner of, and reserves all rights to the assets, content, services, information, and products and graphics in the website except any third party content.</p>
+        <p>Galactus Funware refuses to acknowledge or represent about the accuracy or completeness or reliability or adequacy of the website's third party content. These content, materials, information, services, and products in this website, including text, graphics, and links, are provided "AS IS" and without warranties of any kind, whether expressed or implied.</p>
+        <p>*MPL is the biggest gaming app in India based on the number of unity games, special tournaments and formats. MPL is available only to people above 18 years of age. MPL is available in all states where permissible by extant law. Consequently, users located in some states may not be able to access our App or its contests. For an updated list of such states, please download the App</p>
       </div>
     </div>
   </div>
@@ -577,6 +644,12 @@
                 }
               });
               });
+</script>
+
+<script>
+  $(".navbar-mobile h2").click(function(){
+    $(this).toggleClass("fantasygame");
+  });
 </script>
 
 </body>
