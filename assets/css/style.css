@@ -10,6 +10,51 @@
 body {
   font-family: 'Trim-Bold';
 }
+.header .navbar, .header .col-md-12, .header .row, .header .container, .header .nav-item.dropdown {
+  position: static;
+}
+.header {
+  position: relative;
+}
+.header .row.dropdown-menu.show {
+  width: 100%;
+  display: flex;
+}
+.header .w-100.dropdown-menu.show {
+  top: 100%;
+  margin-top: -1px;
+  border: 0;
+  border-radius: 0;
+}
+.submenu ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 59px;
+}
+.submenu ul li a {
+  margin: 0px !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  color: rgb(35, 0, 70) !important;
+  text-align: left !important;
+  padding: 0;
+  margin-bottom: 15px !important;
+  background: transparent !important;
+}
+.submenu .col-md-3 h2 {
+  margin: 0px;
+    margin-bottom: 0px;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(35, 0, 70);
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.submenu .col-md-3 h2 img {
+  width: 44px;
+  height: 44px;
+  margin-right: 14px;
+}
 
 .header .navbar-nav li a {
   font-family: 'Trim-Bold';
@@ -19,8 +64,11 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #230046 !important;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0 20px;
+}
+.padin-bottom {
+  padding-bottom: 60px !important;
 }
 .header .navbar {
   background: transparent !important;
@@ -487,7 +535,11 @@ font-weight: 600;
   display: none;
 }
 .navbar-mobile h2.fantasygame1 + ul, .navbar-mobile h2.fantasygame2 + ul, .navbar-mobile h2.fantasygame3 + ul, .navbar-mobile h2.fantasygame4 + ul, .navbar-mobile h2.fantasygame5 + ul, .navbar-mobile h2.fantasygame6 + ul, .navbar-mobile h2.fantasygame7 + ul {
-  display: block;
+  display: flex !important;
+flex-wrap: wrap;
+}
+.navbar-mobile ul {
+  padding-right: 55px;
 }
 .header .navbar-toggler.collapsed {
   color: #ff1e46 !important;
@@ -672,5 +724,26 @@ margin-top: 0 !important;
   border: 1px solid #f3f2f4;
   border-radius: 5px;
 }
+.bannerbutton input, .getbutton, .numbertext {
+  display: none !important;
+}
+.getbutton-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-mobile ul li a {
+  width: 80px;
+  display: inline-block;
+}
+.fantasygame-submanu {
+  display: none;
+}
 
+}
+
+@media (max-width: 380px) {
+  .dis-blocad {
+    display: none;
+  }
 }
